@@ -2,7 +2,7 @@
 
 const soma = (a,b) => a + b
 console.log(soma(2,5))
-7
+
 // Fim
 
 
@@ -26,7 +26,7 @@ console.log(`Com o loop rodando ${vezes} vezes, a soma dos números é de: ${fin
 
 // Exercício 03 - Crie uma função que calcule a sequencia Fibonacci até um determinada ocorrencia
 
-const string = Number(prompt("Digite até qual determinada ocorrência deseja calcular a sequência de Fibonacci"))
+const string = Number(prompt("Digite qual determinada ocorrência deseja calcular a Fibonacci"))
 
 function mostrarFibonacci(){
     let resultFinal = [0,1]
@@ -43,7 +43,7 @@ mostrarFibonacci()
 
 // Exercício 4 - Imprima o valor de uma string, uma letra em cada linha.
 
-const string = prompt("Digite uma frase")
+const string = prompt("Digite um texto")
 
 function imprimirSeparado(){
     for(i=0;i<string.length;i++){
@@ -58,14 +58,14 @@ imprimirSeparado()
 
 //Exercício 05 - Inverta uma sequência de caracteres informada sem utilizar funções nativas do javascript.
 
-const string = prompt("Digite uma frase")
+const string = prompt("Digite um texto")
 
 function imprimirReverso(){
-    let reverso = '';
+    let invertido = '';
     for(i=string.length;i>=0;i--){
-        reverso += string.charAt(i)
+        invertido += string.charAt(i)
     }
-    console.log(reverso)
+    console.log(invertido)
 }
 imprimirReverso()
 
